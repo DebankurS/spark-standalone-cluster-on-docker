@@ -28,6 +28,8 @@ RUN apt-get update -y && \
 
 # -- Layer: Scala kernel for Spark
 
+RUN echo "test"
+
 ARG scala_version
 
 RUN apt-get install -y ca-certificates-java --no-install-recommends && \
