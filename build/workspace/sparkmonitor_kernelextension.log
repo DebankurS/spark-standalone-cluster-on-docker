@@ -1,0 +1,3919 @@
+INFO:  2022-09-24 00:56:30,206 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 0,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961190199,
+  "stageIds" : [ 0 ],
+  "stageInfos" : {
+    "0" : {
+      "attemptId" : 0,
+      "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498"
+}
+ 
+
+INFO:  2022-09-24 00:56:30,211 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 0,
+  "stageAttemptId" : 0,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961190209,
+  "jobIds" : [ 0 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:30,294 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961190281,
+  "taskId" : 0,
+  "stageId" : 0,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:31,163 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 1,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961191162,
+  "stageIds" : [ 1 ],
+  "stageInfos" : {
+    "1" : {
+      "attemptId" : 0,
+      "name" : "collect at PythonRDD.scala:195",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "null"
+}
+ 
+
+INFO:  2022-09-24 00:56:31,164 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 1,
+  "stageAttemptId" : 0,
+  "name" : "collect at PythonRDD.scala:195",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961191163,
+  "jobIds" : [ 1 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:31,174 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961191173,
+  "taskId" : 1,
+  "stageId" : 1,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:31,636 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961190281,
+  "finishTime" : 1663961191619,
+  "taskId" : 0,
+  "stageId" : 0,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 18,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1297,
+    "schedulerDelay" : 23,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 1.345291479820628,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 96.93572496263079,
+    "schedulerDelayProportion" : 1.71898355754858,
+    "shuffleReadTimeProportionPos" : 3.0642750373692076,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 1.71898355754858,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 3.0642750373692076,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:31,638 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 0,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961191625,
+  "submissionTime" : 1663961190209,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:31,641 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 0,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961191627
+}
+ 
+
+INFO:  2022-09-24 00:56:32,134 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 2,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961192133,
+  "stageIds" : [ 2 ],
+  "stageInfos" : {
+    "2" : {
+      "attemptId" : 0,
+      "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498"
+}
+ 
+
+INFO:  2022-09-24 00:56:32,134 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 2,
+  "stageAttemptId" : 0,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961192134,
+  "jobIds" : [ 2 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:32,142 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961192141,
+  "taskId" : 2,
+  "stageId" : 2,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:32,251 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961191173,
+  "finishTime" : 1663961192250,
+  "taskId" : 1,
+  "stageId" : 1,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 2,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1071,
+    "schedulerDelay" : 4,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.18570102135561745,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.44289693593315,
+    "schedulerDelayProportion" : 0.3714020427112349,
+    "shuffleReadTimeProportionPos" : 0.5571030640668524,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.3714020427112349,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.5571030640668524,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:32,252 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 1,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961192251,
+  "submissionTime" : 1663961191163,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:32,252 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 1,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961192251
+}
+ 
+
+INFO:  2022-09-24 00:56:33,133 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 3,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961193132,
+  "stageIds" : [ 3 ],
+  "stageInfos" : {
+    "3" : {
+      "attemptId" : 0,
+      "name" : "collect at PythonRDD.scala:195",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "null"
+}
+ 
+
+INFO:  2022-09-24 00:56:33,133 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 3,
+  "stageAttemptId" : 0,
+  "name" : "collect at PythonRDD.scala:195",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961193133,
+  "jobIds" : [ 3 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:33,140 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961193140,
+  "taskId" : 3,
+  "stageId" : 3,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:33,177 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961192141,
+  "finishTime" : 1663961193175,
+  "taskId" : 2,
+  "stageId" : 2,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1029,
+    "schedulerDelay" : 4,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.09671179883945842,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.5164410058027,
+    "schedulerDelayProportion" : 0.3868471953578337,
+    "shuffleReadTimeProportionPos" : 0.4835589941972921,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.3868471953578337,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.4835589941972921,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:33,177 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 2,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961193176,
+  "submissionTime" : 1663961192134,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:33,177 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 2,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961193176
+}
+ 
+
+INFO:  2022-09-24 00:56:34,144 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 4,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961194143,
+  "stageIds" : [ 4 ],
+  "stageInfos" : {
+    "4" : {
+      "attemptId" : 0,
+      "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498"
+}
+ 
+
+INFO:  2022-09-24 00:56:34,144 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 4,
+  "stageAttemptId" : 0,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961194144,
+  "jobIds" : [ 4 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:34,150 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961194150,
+  "taskId" : 4,
+  "stageId" : 4,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:34,198 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961193140,
+  "finishTime" : 1663961194197,
+  "taskId" : 3,
+  "stageId" : 3,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 2,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1052,
+    "schedulerDelay" : 3,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.1892147587511826,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.52696310312204,
+    "schedulerDelayProportion" : 0.28382213812677387,
+    "shuffleReadTimeProportionPos" : 0.47303689687795647,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.28382213812677387,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.47303689687795647,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:34,198 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 3,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961194198,
+  "submissionTime" : 1663961193133,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:34,199 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 3,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961194198
+}
+ 
+
+INFO:  2022-09-24 00:56:35,132 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 5,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961195131,
+  "stageIds" : [ 5 ],
+  "stageInfos" : {
+    "5" : {
+      "attemptId" : 0,
+      "name" : "collect at PythonRDD.scala:195",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "null"
+}
+ 
+
+INFO:  2022-09-24 00:56:35,132 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 5,
+  "stageAttemptId" : 0,
+  "name" : "collect at PythonRDD.scala:195",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961195132,
+  "jobIds" : [ 5 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:35,139 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961195138,
+  "taskId" : 5,
+  "stageId" : 5,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:35,193 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961194150,
+  "finishTime" : 1663961195192,
+  "taskId" : 4,
+  "stageId" : 4,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1037,
+    "schedulerDelay" : 4,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.09596928982725528,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.52015355086372,
+    "schedulerDelayProportion" : 0.3838771593090211,
+    "shuffleReadTimeProportionPos" : 0.4798464491362764,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.3838771593090211,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.4798464491362764,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:35,193 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 4,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961195192,
+  "submissionTime" : 1663961194144,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:35,193 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 4,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961195193
+}
+ 
+
+INFO:  2022-09-24 00:56:36,132 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 6,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961196132,
+  "stageIds" : [ 6 ],
+  "stageInfos" : {
+    "6" : {
+      "attemptId" : 0,
+      "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498"
+}
+ 
+
+INFO:  2022-09-24 00:56:36,132 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 6,
+  "stageAttemptId" : 0,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961196132,
+  "jobIds" : [ 6 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:36,139 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961196138,
+  "taskId" : 6,
+  "stageId" : 6,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:36,181 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961195138,
+  "finishTime" : 1663961196180,
+  "taskId" : 5,
+  "stageId" : 5,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1039,
+    "schedulerDelay" : 2,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.09596928982725528,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.71209213051824,
+    "schedulerDelayProportion" : 0.19193857965451055,
+    "shuffleReadTimeProportionPos" : 0.28790786948176583,
+    "shuffleWriteTimeProportionPos" : 100.00000000000001,
+    "serializationTimeProportionPos" : 100.00000000000001,
+    "deserializationTimeProportionPos" : 0.19193857965451055,
+    "gettingResultTimeProportionPos" : 100.00000000000001,
+    "executorComputingTimeProportionPos" : 0.28790786948176583,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:36,182 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 5,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961196181,
+  "submissionTime" : 1663961195132,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:36,182 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 5,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961196181
+}
+ 
+
+INFO:  2022-09-24 00:56:37,134 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 7,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961197133,
+  "stageIds" : [ 7 ],
+  "stageInfos" : {
+    "7" : {
+      "attemptId" : 0,
+      "name" : "collect at PythonRDD.scala:195",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "null"
+}
+ 
+
+INFO:  2022-09-24 00:56:37,135 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 7,
+  "stageAttemptId" : 0,
+  "name" : "collect at PythonRDD.scala:195",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961197134,
+  "jobIds" : [ 7 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:37,141 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961197141,
+  "taskId" : 7,
+  "stageId" : 7,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:37,180 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961196138,
+  "finishTime" : 1663961197179,
+  "taskId" : 6,
+  "stageId" : 6,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1037,
+    "schedulerDelay" : 3,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.09606147934678194,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.61575408261287,
+    "schedulerDelayProportion" : 0.2881844380403458,
+    "shuffleReadTimeProportionPos" : 0.38424591738712777,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.2881844380403458,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.38424591738712777,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:37,180 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 6,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961197179,
+  "submissionTime" : 1663961196132,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:37,180 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 6,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961197179
+}
+ 
+
+INFO:  2022-09-24 00:56:38,134 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 8,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961198132,
+  "stageIds" : [ 8 ],
+  "stageInfos" : {
+    "8" : {
+      "attemptId" : 0,
+      "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498"
+}
+ 
+
+INFO:  2022-09-24 00:56:38,134 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 8,
+  "stageAttemptId" : 0,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961198133,
+  "jobIds" : [ 8 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:38,140 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961198140,
+  "taskId" : 8,
+  "stageId" : 8,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:38,191 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961197141,
+  "finishTime" : 1663961198190,
+  "taskId" : 7,
+  "stageId" : 7,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 2,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1045,
+    "schedulerDelay" : 2,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.19065776930409914,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.61868446139181,
+    "schedulerDelayProportion" : 0.19065776930409914,
+    "shuffleReadTimeProportionPos" : 0.3813155386081983,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.19065776930409914,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.3813155386081983,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:38,191 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 7,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961198191,
+  "submissionTime" : 1663961197134,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:38,191 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 7,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961198191
+}
+ 
+
+INFO:  2022-09-24 00:56:39,149 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 9,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961199148,
+  "stageIds" : [ 9 ],
+  "stageInfos" : {
+    "9" : {
+      "attemptId" : 0,
+      "name" : "collect at PythonRDD.scala:195",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "null"
+}
+ 
+
+INFO:  2022-09-24 00:56:39,149 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 9,
+  "stageAttemptId" : 0,
+  "name" : "collect at PythonRDD.scala:195",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961199149,
+  "jobIds" : [ 9 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:39,156 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961199156,
+  "taskId" : 9,
+  "stageId" : 9,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:39,184 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961198140,
+  "finishTime" : 1663961199183,
+  "taskId" : 8,
+  "stageId" : 8,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1039,
+    "schedulerDelay" : 3,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.09587727708533077,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.61649089165867,
+    "schedulerDelayProportion" : 0.28763183125599234,
+    "shuffleReadTimeProportionPos" : 0.3835091083413231,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.28763183125599234,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.3835091083413231,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:39,184 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 8,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961199184,
+  "submissionTime" : 1663961198133,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:39,184 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 8,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961199184
+}
+ 
+
+INFO:  2022-09-24 00:56:40,135 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 10,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961200134,
+  "stageIds" : [ 10 ],
+  "stageInfos" : {
+    "10" : {
+      "attemptId" : 0,
+      "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498"
+}
+ 
+
+INFO:  2022-09-24 00:56:40,135 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 10,
+  "stageAttemptId" : 0,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961200135,
+  "jobIds" : [ 10 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:40,141 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961200141,
+  "taskId" : 10,
+  "stageId" : 10,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:40,206 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961199156,
+  "finishTime" : 1663961200205,
+  "taskId" : 9,
+  "stageId" : 9,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1045,
+    "schedulerDelay" : 3,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.09532888465204957,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.61868446139181,
+    "schedulerDelayProportion" : 0.2859866539561487,
+    "shuffleReadTimeProportionPos" : 0.3813155386081983,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.2859866539561487,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.3813155386081983,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:40,206 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 9,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961200205,
+  "submissionTime" : 1663961199149,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:40,206 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 9,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961200205
+}
+ 
+
+INFO:  2022-09-24 00:56:41,140 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 11,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961201139,
+  "stageIds" : [ 11 ],
+  "stageInfos" : {
+    "11" : {
+      "attemptId" : 0,
+      "name" : "collect at PythonRDD.scala:195",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "null"
+}
+ 
+
+INFO:  2022-09-24 00:56:41,141 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 11,
+  "stageAttemptId" : 0,
+  "name" : "collect at PythonRDD.scala:195",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961201140,
+  "jobIds" : [ 11 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:41,147 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961201147,
+  "taskId" : 11,
+  "stageId" : 11,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:41,194 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961200141,
+  "finishTime" : 1663961201193,
+  "taskId" : 10,
+  "stageId" : 10,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1049,
+    "schedulerDelay" : 2,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.09505703422053231,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.7148288973384,
+    "schedulerDelayProportion" : 0.19011406844106463,
+    "shuffleReadTimeProportionPos" : 0.28517110266159695,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.19011406844106463,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.28517110266159695,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:41,194 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 10,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961201194,
+  "submissionTime" : 1663961200135,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:41,194 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 10,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961201194
+}
+ 
+
+INFO:  2022-09-24 00:56:42,137 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 12,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961202136,
+  "stageIds" : [ 12 ],
+  "stageInfos" : {
+    "12" : {
+      "attemptId" : 0,
+      "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498"
+}
+ 
+
+INFO:  2022-09-24 00:56:42,137 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 12,
+  "stageAttemptId" : 0,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961202137,
+  "jobIds" : [ 12 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:42,143 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961202143,
+  "taskId" : 12,
+  "stageId" : 12,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:42,193 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961201147,
+  "finishTime" : 1663961202192,
+  "taskId" : 11,
+  "stageId" : 11,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1042,
+    "schedulerDelay" : 2,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.09569377990430622,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.71291866028707,
+    "schedulerDelayProportion" : 0.19138755980861244,
+    "shuffleReadTimeProportionPos" : 0.28708133971291866,
+    "shuffleWriteTimeProportionPos" : 99.99999999999999,
+    "serializationTimeProportionPos" : 99.99999999999999,
+    "deserializationTimeProportionPos" : 0.19138755980861244,
+    "gettingResultTimeProportionPos" : 99.99999999999999,
+    "executorComputingTimeProportionPos" : 0.28708133971291866,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:42,193 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 11,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961202193,
+  "submissionTime" : 1663961201140,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:42,193 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 11,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961202193
+}
+ 
+
+INFO:  2022-09-24 00:56:43,137 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 13,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961203137,
+  "stageIds" : [ 13 ],
+  "stageInfos" : {
+    "13" : {
+      "attemptId" : 0,
+      "name" : "collect at PythonRDD.scala:195",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "null"
+}
+ 
+
+INFO:  2022-09-24 00:56:43,138 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 13,
+  "stageAttemptId" : 0,
+  "name" : "collect at PythonRDD.scala:195",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961203138,
+  "jobIds" : [ 13 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:43,144 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961203144,
+  "taskId" : 13,
+  "stageId" : 13,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:43,174 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961202143,
+  "finishTime" : 1663961203173,
+  "taskId" : 12,
+  "stageId" : 12,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1026,
+    "schedulerDelay" : 3,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.0970873786407767,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.6116504854369,
+    "schedulerDelayProportion" : 0.2912621359223301,
+    "shuffleReadTimeProportionPos" : 0.3883495145631068,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.2912621359223301,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.3883495145631068,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:43,174 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 12,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961203173,
+  "submissionTime" : 1663961202137,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:43,174 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 12,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961203173
+}
+ 
+
+INFO:  2022-09-24 00:56:44,150 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 14,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961204149,
+  "stageIds" : [ 14 ],
+  "stageInfos" : {
+    "14" : {
+      "attemptId" : 0,
+      "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498"
+}
+ 
+
+INFO:  2022-09-24 00:56:44,150 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 14,
+  "stageAttemptId" : 0,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961204149,
+  "jobIds" : [ 14 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:44,155 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961204155,
+  "taskId" : 14,
+  "stageId" : 14,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:44,185 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961203144,
+  "finishTime" : 1663961204184,
+  "taskId" : 13,
+  "stageId" : 13,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1037,
+    "schedulerDelay" : 2,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.09615384615384616,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.71153846153847,
+    "schedulerDelayProportion" : 0.19230769230769232,
+    "shuffleReadTimeProportionPos" : 0.2884615384615385,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.19230769230769232,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.2884615384615385,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:44,185 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 13,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961204185,
+  "submissionTime" : 1663961203138,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:44,186 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 13,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961204185
+}
+ 
+
+INFO:  2022-09-24 00:56:45,153 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 15,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961205152,
+  "stageIds" : [ 15 ],
+  "stageInfos" : {
+    "15" : {
+      "attemptId" : 0,
+      "name" : "collect at PythonRDD.scala:195",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "null"
+}
+ 
+
+INFO:  2022-09-24 00:56:45,153 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 15,
+  "stageAttemptId" : 0,
+  "name" : "collect at PythonRDD.scala:195",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961205152,
+  "jobIds" : [ 15 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:45,158 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961205158,
+  "taskId" : 15,
+  "stageId" : 15,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:45,239 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961204155,
+  "finishTime" : 1663961205237,
+  "taskId" : 14,
+  "stageId" : 14,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1080,
+    "schedulerDelay" : 1,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.09242144177449169,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.81515711645102,
+    "schedulerDelayProportion" : 0.09242144177449169,
+    "shuffleReadTimeProportionPos" : 0.18484288354898337,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.09242144177449169,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.18484288354898337,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4060,
+    "jvmGCTime" : 5,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:45,239 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 14,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961205238,
+  "submissionTime" : 1663961204149,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:45,239 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 14,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961205238
+}
+ 
+
+INFO:  2022-09-24 00:56:46,140 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 16,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961206139,
+  "stageIds" : [ 16 ],
+  "stageInfos" : {
+    "16" : {
+      "attemptId" : 0,
+      "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498"
+}
+ 
+
+INFO:  2022-09-24 00:56:46,140 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 16,
+  "stageAttemptId" : 0,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961206140,
+  "jobIds" : [ 16 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:46,145 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961206145,
+  "taskId" : 16,
+  "stageId" : 16,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:46,228 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961205158,
+  "finishTime" : 1663961206227,
+  "taskId" : 15,
+  "stageId" : 15,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 2,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1064,
+    "schedulerDelay" : 3,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.18709073900841908,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.53227315247895,
+    "schedulerDelayProportion" : 0.2806361085126286,
+    "shuffleReadTimeProportionPos" : 0.46772684752104765,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.2806361085126286,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.46772684752104765,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:46,228 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 15,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961206227,
+  "submissionTime" : 1663961205152,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:46,228 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 15,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961206227
+}
+ 
+
+INFO:  2022-09-24 00:56:47,140 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 17,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961207139,
+  "stageIds" : [ 17 ],
+  "stageInfos" : {
+    "17" : {
+      "attemptId" : 0,
+      "name" : "collect at PythonRDD.scala:195",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "null"
+}
+ 
+
+INFO:  2022-09-24 00:56:47,140 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 17,
+  "stageAttemptId" : 0,
+  "name" : "collect at PythonRDD.scala:195",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961207140,
+  "jobIds" : [ 17 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:47,144 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961207144,
+  "taskId" : 17,
+  "stageId" : 17,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:47,205 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961206145,
+  "finishTime" : 1663961207204,
+  "taskId" : 16,
+  "stageId" : 16,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1057,
+    "schedulerDelay" : 1,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.09442870632672333,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.81114258734655,
+    "schedulerDelayProportion" : 0.09442870632672333,
+    "shuffleReadTimeProportionPos" : 0.18885741265344666,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.09442870632672333,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.18885741265344666,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:47,205 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 16,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961207205,
+  "submissionTime" : 1663961206140,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:47,206 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 16,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961207205
+}
+ 
+
+INFO:  2022-09-24 00:56:48,141 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 18,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961208141,
+  "stageIds" : [ 18 ],
+  "stageInfos" : {
+    "18" : {
+      "attemptId" : 0,
+      "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498"
+}
+ 
+
+INFO:  2022-09-24 00:56:48,142 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 18,
+  "stageAttemptId" : 0,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961208141,
+  "jobIds" : [ 18 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:48,148 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961208148,
+  "taskId" : 18,
+  "stageId" : 18,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:48,201 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961207144,
+  "finishTime" : 1663961208201,
+  "taskId" : 17,
+  "stageId" : 17,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1054,
+    "schedulerDelay" : 2,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.0946073793755913,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.71617786187323,
+    "schedulerDelayProportion" : 0.1892147587511826,
+    "shuffleReadTimeProportionPos" : 0.2838221381267739,
+    "shuffleWriteTimeProportionPos" : 100.00000000000001,
+    "serializationTimeProportionPos" : 100.00000000000001,
+    "deserializationTimeProportionPos" : 0.1892147587511826,
+    "gettingResultTimeProportionPos" : 100.00000000000001,
+    "executorComputingTimeProportionPos" : 0.2838221381267739,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:48,201 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 17,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961208201,
+  "submissionTime" : 1663961207140,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:48,202 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 17,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961208201
+}
+ 
+
+INFO:  2022-09-24 00:56:49,144 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 19,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961209143,
+  "stageIds" : [ 19 ],
+  "stageInfos" : {
+    "19" : {
+      "attemptId" : 0,
+      "name" : "collect at PythonRDD.scala:195",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "null"
+}
+ 
+
+INFO:  2022-09-24 00:56:49,144 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 19,
+  "stageAttemptId" : 0,
+  "name" : "collect at PythonRDD.scala:195",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961209144,
+  "jobIds" : [ 19 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:49,149 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961209149,
+  "taskId" : 19,
+  "stageId" : 19,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:49,202 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961208148,
+  "finishTime" : 1663961209202,
+  "taskId" : 18,
+  "stageId" : 18,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1051,
+    "schedulerDelay" : 2,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.09487666034155598,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.71537001897534,
+    "schedulerDelayProportion" : 0.18975332068311196,
+    "shuffleReadTimeProportionPos" : 0.28462998102466797,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.18975332068311196,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.28462998102466797,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:49,202 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 18,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961209202,
+  "submissionTime" : 1663961208141,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:49,203 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 18,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961209202
+}
+ 
+
+INFO:  2022-09-24 00:56:50,144 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 20,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961210143,
+  "stageIds" : [ 20 ],
+  "stageInfos" : {
+    "20" : {
+      "attemptId" : 0,
+      "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498"
+}
+ 
+
+INFO:  2022-09-24 00:56:50,144 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 20,
+  "stageAttemptId" : 0,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961210144,
+  "jobIds" : [ 20 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:50,148 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961210148,
+  "taskId" : 20,
+  "stageId" : 20,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:50,198 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961209149,
+  "finishTime" : 1663961210198,
+  "taskId" : 19,
+  "stageId" : 19,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1045,
+    "schedulerDelay" : 3,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.09532888465204957,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.61868446139181,
+    "schedulerDelayProportion" : 0.2859866539561487,
+    "shuffleReadTimeProportionPos" : 0.3813155386081983,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.2859866539561487,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.3813155386081983,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:50,199 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 19,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961210198,
+  "submissionTime" : 1663961209144,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:50,199 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 19,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961210198
+}
+ 
+
+INFO:  2022-09-24 00:56:51,143 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 21,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961211143,
+  "stageIds" : [ 21 ],
+  "stageInfos" : {
+    "21" : {
+      "attemptId" : 0,
+      "name" : "collect at PythonRDD.scala:195",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "null"
+}
+ 
+
+INFO:  2022-09-24 00:56:51,144 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 21,
+  "stageAttemptId" : 0,
+  "name" : "collect at PythonRDD.scala:195",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961211143,
+  "jobIds" : [ 21 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:51,148 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961211147,
+  "taskId" : 21,
+  "stageId" : 21,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:51,198 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961210148,
+  "finishTime" : 1663961211197,
+  "taskId" : 20,
+  "stageId" : 20,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1046,
+    "schedulerDelay" : 2,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.09532888465204957,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.71401334604386,
+    "schedulerDelayProportion" : 0.19065776930409914,
+    "shuffleReadTimeProportionPos" : 0.2859866539561487,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.19065776930409914,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.2859866539561487,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:51,198 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 20,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961211197,
+  "submissionTime" : 1663961210144,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:51,198 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 20,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961211197
+}
+ 
+
+INFO:  2022-09-24 00:56:52,145 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 22,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961212144,
+  "stageIds" : [ 22 ],
+  "stageInfos" : {
+    "22" : {
+      "attemptId" : 0,
+      "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498"
+}
+ 
+
+INFO:  2022-09-24 00:56:52,145 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 22,
+  "stageAttemptId" : 0,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961212145,
+  "jobIds" : [ 22 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:52,149 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961212149,
+  "taskId" : 22,
+  "stageId" : 22,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:52,212 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961211147,
+  "finishTime" : 1663961212212,
+  "taskId" : 21,
+  "stageId" : 21,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 0,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1062,
+    "schedulerDelay" : 3,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.0,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.71830985915493,
+    "schedulerDelayProportion" : 0.28169014084507044,
+    "shuffleReadTimeProportionPos" : 0.28169014084507044,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.28169014084507044,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.28169014084507044,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 3974,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:52,213 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 21,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961212212,
+  "submissionTime" : 1663961211143,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:52,213 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 21,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961212212
+}
+ 
+
+INFO:  2022-09-24 00:56:53,147 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 23,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961213146,
+  "stageIds" : [ 23 ],
+  "stageInfos" : {
+    "23" : {
+      "attemptId" : 0,
+      "name" : "collect at PythonRDD.scala:195",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "null"
+}
+ 
+
+INFO:  2022-09-24 00:56:53,147 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 23,
+  "stageAttemptId" : 0,
+  "name" : "collect at PythonRDD.scala:195",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961213147,
+  "jobIds" : [ 23 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:53,152 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961213151,
+  "taskId" : 23,
+  "stageId" : 23,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:53,234 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961212149,
+  "finishTime" : 1663961213233,
+  "taskId" : 22,
+  "stageId" : 22,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1081,
+    "schedulerDelay" : 2,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.09225092250922509,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.72324723247233,
+    "schedulerDelayProportion" : 0.18450184501845018,
+    "shuffleReadTimeProportionPos" : 0.2767527675276753,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.18450184501845018,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.2767527675276753,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:53,234 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 22,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961213234,
+  "submissionTime" : 1663961212145,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:53,234 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 22,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961213234
+}
+ 
+
+INFO:  2022-09-24 00:56:54,147 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 24,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961214146,
+  "stageIds" : [ 24 ],
+  "stageInfos" : {
+    "24" : {
+      "attemptId" : 0,
+      "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498"
+}
+ 
+
+INFO:  2022-09-24 00:56:54,147 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 24,
+  "stageAttemptId" : 0,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961214147,
+  "jobIds" : [ 24 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:54,152 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961214152,
+  "taskId" : 24,
+  "stageId" : 24,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:54,236 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961213151,
+  "finishTime" : 1663961214236,
+  "taskId" : 23,
+  "stageId" : 23,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 0,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1082,
+    "schedulerDelay" : 3,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.0,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.72350230414746,
+    "schedulerDelayProportion" : 0.2764976958525346,
+    "shuffleReadTimeProportionPos" : 0.2764976958525346,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.2764976958525346,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.2764976958525346,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 3974,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:54,237 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 23,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961214236,
+  "submissionTime" : 1663961213147,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:54,237 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 23,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961214236
+}
+ 
+
+INFO:  2022-09-24 00:56:55,149 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 25,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961215148,
+  "stageIds" : [ 25 ],
+  "stageInfos" : {
+    "25" : {
+      "attemptId" : 0,
+      "name" : "collect at PythonRDD.scala:195",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "null"
+}
+ 
+
+INFO:  2022-09-24 00:56:55,149 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 25,
+  "stageAttemptId" : 0,
+  "name" : "collect at PythonRDD.scala:195",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961215149,
+  "jobIds" : [ 25 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:55,154 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961215154,
+  "taskId" : 25,
+  "stageId" : 25,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:55,201 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961214152,
+  "finishTime" : 1663961215200,
+  "taskId" : 24,
+  "stageId" : 24,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1045,
+    "schedulerDelay" : 2,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.09541984732824427,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.71374045801527,
+    "schedulerDelayProportion" : 0.19083969465648853,
+    "shuffleReadTimeProportionPos" : 0.2862595419847328,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.19083969465648853,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.2862595419847328,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:55,201 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 24,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961215201,
+  "submissionTime" : 1663961214147,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:55,201 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 24,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961215201
+}
+ 
+
+INFO:  2022-09-24 00:56:56,150 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 26,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961216150,
+  "stageIds" : [ 26 ],
+  "stageInfos" : {
+    "26" : {
+      "attemptId" : 0,
+      "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498"
+}
+ 
+
+INFO:  2022-09-24 00:56:56,150 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 26,
+  "stageAttemptId" : 0,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961216150,
+  "jobIds" : [ 26 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:56,155 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961216154,
+  "taskId" : 26,
+  "stageId" : 26,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:56,207 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961215154,
+  "finishTime" : 1663961216207,
+  "taskId" : 25,
+  "stageId" : 25,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1050,
+    "schedulerDelay" : 2,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.0949667616334283,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.71509971509971,
+    "schedulerDelayProportion" : 0.1899335232668566,
+    "shuffleReadTimeProportionPos" : 0.2849002849002849,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.1899335232668566,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.2849002849002849,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:56,207 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 25,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961216207,
+  "submissionTime" : 1663961215149,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:56,207 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 25,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961216207
+}
+ 
+
+INFO:  2022-09-24 00:56:57,151 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 27,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961217150,
+  "stageIds" : [ 27 ],
+  "stageInfos" : {
+    "27" : {
+      "attemptId" : 0,
+      "name" : "collect at PythonRDD.scala:195",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "null"
+}
+ 
+
+INFO:  2022-09-24 00:56:57,151 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 27,
+  "stageAttemptId" : 0,
+  "name" : "collect at PythonRDD.scala:195",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961217151,
+  "jobIds" : [ 27 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:57,156 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961217156,
+  "taskId" : 27,
+  "stageId" : 27,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:57,199 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961216154,
+  "finishTime" : 1663961217198,
+  "taskId" : 26,
+  "stageId" : 26,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1040,
+    "schedulerDelay" : 3,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.09578544061302681,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.61685823754789,
+    "schedulerDelayProportion" : 0.28735632183908044,
+    "shuffleReadTimeProportionPos" : 0.38314176245210724,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.28735632183908044,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.38314176245210724,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:57,199 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 26,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961217198,
+  "submissionTime" : 1663961216150,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:57,199 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 26,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961217199
+}
+ 
+
+INFO:  2022-09-24 00:56:58,152 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 28,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961218151,
+  "stageIds" : [ 28 ],
+  "stageInfos" : {
+    "28" : {
+      "attemptId" : 0,
+      "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498"
+}
+ 
+
+INFO:  2022-09-24 00:56:58,152 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 28,
+  "stageAttemptId" : 0,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961218152,
+  "jobIds" : [ 28 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:58,157 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961218156,
+  "taskId" : 28,
+  "stageId" : 28,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:58,184 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961217156,
+  "finishTime" : 1663961218182,
+  "taskId" : 27,
+  "stageId" : 27,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 1,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1024,
+    "schedulerDelay" : 1,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.09746588693957114,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.80506822612085,
+    "schedulerDelayProportion" : 0.09746588693957114,
+    "shuffleReadTimeProportionPos" : 0.1949317738791423,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.09746588693957114,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.1949317738791423,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:58,185 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 27,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961218184,
+  "submissionTime" : 1663961217151,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:58,185 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 27,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961218184
+}
+ 
+
+INFO:  2022-09-24 00:56:59,154 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 29,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961219154,
+  "stageIds" : [ 29 ],
+  "stageInfos" : {
+    "29" : {
+      "attemptId" : 0,
+      "name" : "collect at PythonRDD.scala:195",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "null"
+}
+ 
+
+INFO:  2022-09-24 00:56:59,155 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 29,
+  "stageAttemptId" : 0,
+  "name" : "collect at PythonRDD.scala:195",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961219154,
+  "jobIds" : [ 29 ]
+}
+ 
+
+INFO:  2022-09-24 00:56:59,165 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961219165,
+  "taskId" : 29,
+  "stageId" : 29,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:56:59,218 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961218156,
+  "finishTime" : 1663961219217,
+  "taskId" : 28,
+  "stageId" : 28,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 0,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1059,
+    "schedulerDelay" : 2,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.0,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.8114985862394,
+    "schedulerDelayProportion" : 0.1885014137606032,
+    "shuffleReadTimeProportionPos" : 0.1885014137606032,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.1885014137606032,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.1885014137606032,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 5,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:56:59,218 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 28,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961219218,
+  "submissionTime" : 1663961218152,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:56:59,218 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 28,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961219218
+}
+ 
+
+INFO:  2022-09-24 00:57:00,153 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobStart",
+  "jobGroup" : "Hyperopt_SparkTrials_cc22a78ae81d",
+  "jobId" : 30,
+  "status" : "RUNNING",
+  "submissionTime" : 1663961220153,
+  "stageIds" : [ 30 ],
+  "stageInfos" : {
+    "30" : {
+      "attemptId" : 0,
+      "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+      "numTasks" : 1,
+      "completionTime" : -1,
+      "submissionTime" : -1
+    }
+  },
+  "numTasks" : 1,
+  "totalCores" : 12,
+  "appId" : "local-1663961183256",
+  "numExecutors" : 1,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498"
+}
+ 
+
+INFO:  2022-09-24 00:57:00,154 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageSubmitted",
+  "stageId" : 30,
+  "stageAttemptId" : 0,
+  "name" : "collectWithJobGroup at /home/debankurs/miniconda3/envs/pysparkenv/lib/python3.8/site-packages/hyperopt/spark.py:498",
+  "numTasks" : 1,
+  "parentIds" : [ ],
+  "submissionTime" : 1663961220154,
+  "jobIds" : [ 30 ]
+}
+ 
+
+INFO:  2022-09-24 00:57:00,158 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskStart",
+  "launchTime" : 1663961220158,
+  "taskId" : 30,
+  "stageId" : 30,
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "RUNNING",
+  "speculative" : false
+}
+ 
+
+INFO:  2022-09-24 00:57:00,235 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkTaskEnd",
+  "launchTime" : 1663961219165,
+  "finishTime" : 1663961220234,
+  "taskId" : 29,
+  "stageId" : 29,
+  "taskType" : "ResultTask",
+  "stageAttemptId" : 0,
+  "index" : 0,
+  "attemptNumber" : 0,
+  "executorId" : "driver",
+  "host" : "192.168.1.22",
+  "status" : "SUCCESS",
+  "speculative" : false,
+  "metrics" : {
+    "shuffleReadTime" : 0,
+    "shuffleWriteTime" : 0,
+    "serializationTime" : 0,
+    "deserializationTime" : 3,
+    "gettingResultTime" : 0,
+    "executorComputingTime" : 1064,
+    "schedulerDelay" : 2,
+    "shuffleReadTimeProportion" : 0.0,
+    "shuffleWriteTimeProportion" : 0.0,
+    "serializationTimeProportion" : 0.0,
+    "deserializationTimeProportion" : 0.2806361085126286,
+    "gettingResultTimeProportion" : 0.0,
+    "executorComputingTimeProportion" : 99.53227315247895,
+    "schedulerDelayProportion" : 0.18709073900841908,
+    "shuffleReadTimeProportionPos" : 0.46772684752104765,
+    "shuffleWriteTimeProportionPos" : 100.0,
+    "serializationTimeProportionPos" : 100.0,
+    "deserializationTimeProportionPos" : 0.18709073900841908,
+    "gettingResultTimeProportionPos" : 100.0,
+    "executorComputingTimeProportionPos" : 0.46772684752104765,
+    "schedulerDelayProportionPos" : 0,
+    "resultSize" : 4017,
+    "jvmGCTime" : 0,
+    "memoryBytesSpilled" : 0,
+    "diskBytesSpilled" : 0,
+    "peakExecutionMemory" : 0,
+    "test" : 0
+  }
+}
+ 
+
+INFO:  2022-09-24 00:57:00,235 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkStageCompleted",
+  "stageId" : 29,
+  "stageAttemptId" : 0,
+  "completionTime" : 1663961220235,
+  "submissionTime" : 1663961219154,
+  "numTasks" : 1,
+  "status" : "COMPLETED"
+}
+ 
+
+INFO:  2022-09-24 00:57:00,235 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkJobEnd",
+  "jobId" : 29,
+  "status" : "SUCCEEDED",
+  "completionTime" : 1663961220235
+}
+ 
+
+INFO:  2022-09-24 00:57:00,571 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Message Received: 
+{
+  "msgtype" : "sparkApplicationEnd",
+  "endTime" : 1663961220570
+}
+ 
+
+INFO:  2022-09-24 00:57:00,571 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Scala socket closed - empty data 
+
+INFO:  2022-09-24 00:57:00,571 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Socket Exiting Client Loop 
+
+INFO:  2022-09-24 00:57:00,571 - sparkmonitorkernel - 217404 - MainProcess -         140296946173696 - Thread-5
+ Starting socket thread, going to accept 
+
+INFO:  2022-09-24 00:57:01,610 - sparkmonitorkernel - 217404 - MainProcess -         140297841578368 - MainThread
+ COMM OPENED MESSAGE: 
+ {'header': {'date': datetime.datetime(2022, 9, 23, 19, 26, 12, 221000, tzinfo=tzutc()), 'msg_id': 'e8ed3bd1-33fd-42b2-93a8-593ea9d2b0e5', 'msg_type': 'comm_open', 'session': 'ac3cd2f2-3c18-47f3-827c-6fecf4e7bcdd', 'username': '', 'version': '5.2'}, 'msg_id': 'e8ed3bd1-33fd-42b2-93a8-593ea9d2b0e5', 'msg_type': 'comm_open', 'parent_header': {}, 'metadata': {}, 'content': {'comm_id': '350305d6-11a9-462f-be56-4868c8da17c5', 'target_name': 'SparkMonitor', 'data': {'msgtype': 'openfromfrontend'}}, 'buffers': []} 
+ 
+

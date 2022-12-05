@@ -20,7 +20,7 @@ ARG shared_workspace=/opt/workspace
 RUN mkdir -p ${shared_workspace}/data && \
     mkdir -p /usr/share/man/man1 && \
     apt-get update -y && \
-    apt-get install -y curl python3 r-base && \
+    DEBIAN_FRONTEND=noninteractive apt-get install -y curl python3 python3-pip r-base git cmake libatlas3-base libopenblas-base && \
     ln -s /usr/bin/python3 /usr/bin/python && \
     curl https://downloads.lightbend.com/scala/${scala_version}/scala-${scala_version}.deb -k -o scala.deb && \
     apt install -y ./scala.deb && \
@@ -29,7 +29,7 @@ RUN mkdir -p ${shared_workspace}/data && \
 ENV SCALA_HOME="/usr/bin/scala"
 ENV PATH=${PATH}:${SCALA_HOME}/bin
 ENV SHARED_WORKSPACE=${shared_workspace}
-
+ENV MLFLOW_TRACKING_URI="http://workstation.debankurs.com:5000"
 # -- Runtime
 
 VOLUME ${shared_workspace}

@@ -16,4 +16,6 @@ LABEL org.label-schema.schema-version="1.0"
 
 EXPOSE 8080 7077
 
+# RUN conf/spark-env.sh spark.ui.prometheus.enabled=true
+
 CMD bin/spark-class org.apache.spark.deploy.master.Master >> logs/spark-master.out
