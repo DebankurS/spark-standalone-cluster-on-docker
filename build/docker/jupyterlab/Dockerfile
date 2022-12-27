@@ -21,7 +21,7 @@ ARG spark_version
 ARG jupyterlab_version
 ARG scala_kernel_version
 
-RUN apt-get update -y && \
+RUN apt-get update -y && apt-get upgrade -y &&\
     DEBIAN_FRONTEND=noninteractive apt-get install -y python3-pip python3-dev wget && \
     pip3 install --upgrade pip && \
     pip3 install wget pyspark==${spark_version} jupyterlab==${jupyterlab_version} mlflow hyperopt scikit-learn matplotlib seaborn jupyterlab-sparkmonitor ipywidgets sparksql-magic  xgboost lightgbm \
@@ -58,14 +58,14 @@ ARG scala_version
 #     curl -Lo coursier https://git.io/coursier-cli && \
 #     chmod +x coursier && \
 #     ./coursier launch --fork almond:${scala_kernel_version} --scala ${scala_version} -- --display-name "Scala ${scala_version}" --install && \
+#     rm -rf coursier
+
+# COPY ./docker/jupyterlab/coursier coursier
+
+# RUN apt-get install -y ca-certificates-java --no-install-recommends && \
+#     chmod +x coursier && \
+#     ./coursier launch --fork almond:${scala_kernel_version} --scala ${scala_version} -- --display-name "Scala ${scala_version}" --install && \
 #     rm -f coursier
-
-COPY ./docker/jupyterlab/coursier coursier
-
-RUN apt-get install -y ca-certificates-java --no-install-recommends && \
-    chmod +x coursier && \
-    ./coursier launch --fork almond:${scala_kernel_version} --scala ${scala_version} -- --display-name "Scala ${scala_version}" --install && \
-    rm -f coursier
 
 
 # -- Layer: R kernel for SparkR
